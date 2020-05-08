@@ -20,7 +20,7 @@ title                    : "코딩공부를 해보자"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yunok"
-description              : "공부한 내용을 정리해서 올립니다"
+description              : "공부용 github 블로그"
 url                      : "https://ahyz0569.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Yunok"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부한 내용을 정리해서 올립니다ㅎㅅㅎ"
+  bio              : "공부한 내용을 정리해서 올림ㅎㅅㅎ"
   location         : "Seoul"
   email            :
   links:
