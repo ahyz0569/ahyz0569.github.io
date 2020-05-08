@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Yunok"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" 
   bio              : "공부한 내용을 정리해서 올림ㅎㅅㅎ"
   location         : "Seoul"
   email            :
