@@ -14,7 +14,7 @@ categories: Computer Vision
 
 ## Object Detection이란
 
-![Computer Vision task](2020-05-08-Object_Detection_Library.assets/fig1_cv_task.png)*그림: 대표적인 Computer Vision task*
+![Computer Vision task](/assets/postimgs/fig1_cv_task.png)*그림: 대표적인 Computer Vision task*
 
 Object Detection을 알기 전에 Image Classification에 대해 알아 보도록 합니다. DNN에 입력으로 이미지를 넣으면 그 이미지에 해당하는 Class를 분류해내는 문제를 Image Classification 이라 부르며, 위 그림과 같이 타겟으로 하는 전체 class에 대한 확률 값들을 출력하게 됩니다. 
 
@@ -30,7 +30,7 @@ Object Detection을 알기 전에 Image Classification에 대해 알아 보도�
 
 > Faster R-CNN(Faster Region-based Convolutional Neural Network)은 객체 탐지 과업 을 수행하는 딥러닝 기반 모델
 
-<img src="2020-05-08-Object_Detection_Library.assets/Faster-R-CNN.JPG" alt="Faster-R-CNN" style="zoom:80%;" />
+![Faster R-CNN Network](/assets/postimgs/Faster-R-CNN.JPG)
 
 *그림: Faster R-CNN Network*
 
@@ -139,7 +139,7 @@ Object Detection 문제를 해결하기 위해 다음과 같은 라이브러리�
   사용가능한 baseline들은 [MODEL_ZOO.md](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md) 에서 확인할 수 있습니다.
 
 - **모델 학습 시간이 빠름**
-  ![image-20200508154827433](2020-05-08-Object_Detection_Library.assets/image-20200508154827433.png)
+  ![training throughput of R50-FPN Maks R-CNN](/assets/postimgs/image-20200508154827433.png)
 
   위의 이미지는 R50-FPN 기반의 Mask R-CNN을 학습시켰을 경우 Detectron2의 학습 시간이 제일 빠르다고 소개하고 있습니다. 필자가 사용해본 결과 위에서 소개한 Detecto와 비교했을 때도 학습속도가 매우 빠른 것을 확인할 수 있었습니다.
 
@@ -163,7 +163,6 @@ Detectron2는 Detecto에 비해 사용방법이 다소 어렵게 느껴질 수�
 
 ## Reference
 
-- Object Detection 이론
 
   [^1]: https://hoya012.github.io/blog/Tutorials-of-Object-Detection-Using-Deep-Learning-what-is-object-detection/
 
@@ -171,7 +170,6 @@ Detectron2는 Detecto에 비해 사용방법이 다소 어렵게 느껴질 수�
 
   - 그림 출처: https://arxiv.org/pdf/1506.01497.pdf
 
-  - Network 설명
 
     [^2]: 고광은, 심귀보. (2017). 딥러닝을 이용한 객체 인식 및 검출 기술 동향. 제어로봇시스템학회지, 23(3), 17-24.
 
